@@ -5,21 +5,23 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Hexo</title>
-  <meta name="author" content="John Doe">
+  <title>Kikiloading&#39;s blog</title>
+  <meta name="author" content="kikiloading">
+  
+  <meta name="description" content="code my life">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   
-  <meta property="og:site_name" content="Hexo"/>
+  <meta property="og:site_name" content="Kikiloading&#39;s blog"/>
 
   
     <meta property="og:image" content="undefined"/>
   
 
   <link href="/favicon.ico" rel="icon" type="image/x-ico">
-  <link rel="alternate" href="http://zipperary.com/atom.xml" title="Hexo" type="application/atom+xml">
+  <link rel="alternate" href="http://nong.party/atom.xml" title="Kikiloading&#39;s blog" type="application/atom+xml">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <script src="//libs.baidu.com/jquery/1.8.0/jquery.min.js"></script>
@@ -29,8 +31,8 @@
 <body>
   <header id="header" class="inner">
 <div class="alignleft">
-  <h1><a href="/">Hexo</a></h1>
-  <h2><a href="/"></a></h2>
+  <h1><a href="/">Kikiloading&#39;s blog</a></h1>
+  <h2><a href="/">show your</a></h2>
 </div>
 <nav id="main-nav" class="alignright">
   <ul>
@@ -219,11 +221,105 @@
     <header>
       
         <div class="icon"></div>
-        <time datetime="1940-10-24T02:26:18.955Z"><a href="/1940/10/24/hello-world/">1940-10-24</a></time>
+        <time datetime="2015-12-24T10:42:20.000Z"><a href="/2015/12/24/markdown学习总结/">2015-12-24</a></time>
       
       
   
-    <h1 class="title"><a href="/1940/10/24/hello-world/">Hello World</a></h1>
+    <h1 class="title"><a href="/2015/12/24/markdown学习总结/">markdown学习总结</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <h1 id="首部">首部</h1><h2 id="学习总结">学习总结</h2><h3 id="markdown总结">markdown总结</h3><ul>
+<li>文本</li>
+</ul>
+<ul>
+<li>链接</li>
+</ul>
+<ul>
+<li>图片链接</li>
+</ul>
+<ul>
+<li><p>表格</p>
+</li>
+<li><p>代码</p>
+</li>
+</ul>
+<h4 id="文本">文本</h4><p><em>你好</em>  <strong>你好</strong>   <em>你好</em>  <strong>你好</strong><br><code>JavaScript</code> <code>python</code></p>
+<h4 id="链接">链接</h4><p><a href="https://github.com/legendpc" target="_blank" rel="external">github</a></p>
+<p><a href="http://revolunet.com" target="_blank" rel="external">blob</a></p>
+<p><a href="http://revolunet.com" title="rich web apps" target="_blank" rel="external">blob</a></p>
+<p><a href="https://nong.party">blob</a></p>
+<p>Links can also be reference based : <a href="http://revolunet.com" target="_blank" rel="external">reference 1</a> or <a href="http://revolunet.com" title="rich web apps" target="_blank" rel="external">reference 2 with title</a>.</p>
+<h4 id="图片链接">图片链接</h4><p><img src="http://static.freebuf.com/2014/11/phper.jpg" alt="" title="一张图"><br><img src="http://static.freebuf.com/2014/11/phper.jpg" alt=""><br><img src="http://static.freebuf.com/2014/11/phper.jpg" alt=""></p>
+<h4 id="表格">表格</h4><table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Temperature (low)</th>
+<th>Temperature (high)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1900</td>
+<td>-10</td>
+<td>25</td>
+</tr>
+<tr>
+<td>1910</td>
+<td>-15</td>
+<td>30</td>
+</tr>
+<tr>
+<td>1920</td>
+<td>-10</td>
+<td>32</td>
+</tr>
+</tbody>
+</table>
+<h4 id="代码">代码</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> config = &#123;</span><br><span class="line">    duration: <span class="number">5</span>,</span><br><span class="line">    comment: <span class="string">'WTF'</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// callbacks beauty un action</span></span><br><span class="line">async_call(<span class="string">'/path/to/api'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">json</span>) </span>&#123;</span><br><span class="line">    another_call(json, <span class="function"><span class="keyword">function</span>(<span class="params">result2</span>) </span>&#123;</span><br><span class="line">        another_another_call(result2, <span class="function"><span class="keyword">function</span>(<span class="params">result3</span>) </span>&#123;</span><br><span class="line">            another_another_another_call(result3, <span class="function"><span class="keyword">function</span>(<span class="params">result4</span>) </span>&#123;</span><br><span class="line">                alert(<span class="string">'And if all went well, i got my result :)'</span>);</span><br><span class="line">            &#125;);</span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+
+
+  <article class="post">
+  
+    <div class="gallery">
+  <div class="photoset">
+    
+      <img src="">
+    
+  </div>
+  <div class="control">
+    <div class="prev"></div>
+    <div class="next"></div>
+  </div>
+</div>
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2015-12-06T15:41:15.000Z"><a href="/2015/12/06/hexo使用_简单命令/">2015-12-06</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2015/12/06/hexo使用_简单命令/"></a></h1>
   
 
     </header>
@@ -255,6 +351,8 @@
 
 
 
+
+
 <nav id="pagination">
   
   
@@ -263,29 +361,16 @@
     <aside id="sidebar" class="alignright">
   <div class="search">
   <form action="//google.com/search" method="get" accept-charset="utf-8">
-    <input type="search" name="q" results="0" placeholder="搜尋">
+    <input type="search" name="q" results="0" placeholder="搜索">
     <input type="hidden" name="q" value="site:nong.party">
   </form>
 </div>
 
   
 
-  <div class="widget tag">
-<h3 class="title">简介</h3>
-<ul class="entry">
-<li>本体：赵伟</li>
-<li>二次元：zippera | moxie</li>
-<li>现状：帝都CS在读研究生</li>
-<li>Theme: <a href="https://github.com/zippera/lightum">Lightum</a>
-<li>想交友的朋友请<a href="http://zipperary.com/about">联系我</a>！</li>
-<li>QQ 号：763987114</li>
-<font color="red">Hexo 交流群：287306637</font>
-</ul>
-</div>
+  
 
-
-
-  <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=0&uid=1586279270&verifier=0c2cdcf8&dpc=1"></iframe>
+  
 </aside>
     <div class="clearfix"></div>
   </div>
@@ -298,6 +383,18 @@ Theme of <a href="https://github.com/zippera/lightum">Lightum</a>, Improved from
 <script src="/js/jquery.imagesloaded.min.js"></script>
 <script src="/js/gallery.js"></script>
 
+
+<script type="text/javascript">
+var disqus_shortname = 'kikiloading';
+
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
 
 
 
@@ -344,4 +441,4 @@ Theme of <a href="https://github.com/zippera/lightum">Lightum</a>, Improved from
 </html>
 
 
-<a href="https://github.com/zippera" target="_blank"><img style="position: absolute; top: 0; left: 0; border: 0;" src="/img/forkme_left_green_007200.png" alt="Fork me on GitHub"></a>
+<a href="https://github.com/legendpc" target="_blank"><img style="position: absolute; top: 0; left: 0; border: 0;" src="/img/forkme_left_green_007200.png" alt="Fork me on GitHub"></a>
